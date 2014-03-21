@@ -7,6 +7,12 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers'])
 
+.run(function($ionicPlatform) {
+  $ionicPlatform.ready(function() {
+    StatusBar.styleDefault();
+  });
+})
+
 .config(function($stateProvider, $urlRouterProvider) {
 
   // Ionic uses AngularUI Router which uses the concept of states
