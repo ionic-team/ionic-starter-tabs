@@ -1,7 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {
-})
+.controller('DashCtrl', function($scope) {})
 
 .controller('FriendsCtrl', function($scope, Friends) {
   $scope.friends = Friends.all();
@@ -11,5 +10,4 @@ angular.module('starter.controllers', [])
   $scope.friend = Friends.get($stateParams.friendId);
 })
 
-.controller('AccountCtrl', function($scope) {
-});
+.controller('AccountCtrl', function($scope) {});
