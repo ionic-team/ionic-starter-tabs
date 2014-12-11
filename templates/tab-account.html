@@ -1,5 +1,15 @@
-<ion-view title="Account">
-  <ion-content class="has-header padding">
-    <h1>Account</h1>
+<ion-view view-title="Account">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-toggle">
+        Enable Friends
+        <label class="toggle">
+          <input type="checkbox" ng-model="settings.enableFriends">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+        </label>
+      </ion-item>
+    </ion-list>
   </ion-content>
 </ion-view>
