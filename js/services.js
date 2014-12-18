@@ -16,7 +16,7 @@ angular.module('starter.services', [])
     face: 'https://pbs.twimg.com/profile_images/479740132258361344/KaYdH9hE.jpeg'
   }, {
     id: 2,
-    name: 'Andrew Jostlen',
+    name: 'Andrew Jostlin',
     lastText: 'Did you get the ice cream?',
     face: 'https://pbs.twimg.com/profile_images/491274378181488640/Tti0fFVJ.jpeg'
   }, {
