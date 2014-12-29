@@ -13,7 +13,7 @@ angular.module('starter.services', [])
     id: 1,
     name: 'Max Lynx',
     lastText: 'Hey, it\'s me',
-    face: 'https://pbs.twimg.com/profile_images/479740132258361344/KaYdH9hE.jpeg'
+    face: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
   }, {
     id: 2,
     name: 'Andrew Jostlin',
@@ -66,7 +66,7 @@ angular.module('starter.services', [])
     id: 1,
     name: 'Max Lynx',
     notes: 'Odd obsession with everything',
-    face: 'https://pbs.twimg.com/profile_images/479740132258361344/KaYdH9hE.jpeg'
+    face: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
   }, {
     id: 2,
     name: 'Andrew Jostlen',
