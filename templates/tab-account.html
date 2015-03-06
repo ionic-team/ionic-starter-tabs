@@ -1,15 +1,9 @@
 <ion-view view-title="Account">
   <ion-content>
     <ion-list>
-      <ion-item class="item-toggle">
+    <ion-toggle  ng-model="settings.enableFriends">
         Enable Friends
-        <label class="toggle">
-          <input type="checkbox" ng-model="settings.enableFriends">
-          <div class="track">
-            <div class="handle"></div>
-          </div>
-        </label>
-      </ion-item>
+    </ion-toggle>
     </ion-list>
   </ion-content>
 </ion-view>
