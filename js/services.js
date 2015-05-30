@@ -23,7 +23,7 @@ angular.module('starter.services', [])
     id: 3,
     name: 'Perry Governor',
     lastText: 'Look at my mukluks!',
-    face: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
+    face: 'https://pbs.twimg.com/profile_images/598205061232103424/3j5HUXMY.png'
   }, {
     id: 4,
     name: 'Mike Harrington',
