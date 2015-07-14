@@ -14,7 +14,7 @@ angular.module('starter.services', [])
     name: 'Max Lynx',
     lastText: 'Hey, it\'s me',
     face: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
-  },{
+  }, {
     id: 2,
     name: 'Adam Bradleyson',
     lastText: 'I should buy a boat',

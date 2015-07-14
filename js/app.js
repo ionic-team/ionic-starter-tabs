@@ -13,6 +13,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     // for form inputs)
     if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+      cordova.plugins.Keyboard.disableScroll(true);
+
     }
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
@@ -31,9 +33,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
   // setup an abstract state for the tabs directive
     .state('tab', {
-    url: "/tab",
+    url: '/tab',
     abstract: true,
-    templateUrl: "templates/tabs.html"
+    templateUrl: 'templates/tabs.html'
   })
 
   // Each tab has its own nav history stack:
